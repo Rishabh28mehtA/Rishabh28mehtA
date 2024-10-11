@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Rishabh28mehtA
 - 👀 I’m interested in learning to code especially python, in Finance, in Impact Investing, Sustainability and in ESG
 - 🌱 I’m currently learning python and Power BI
-- 💞️ I’m looking to collaborate on Sustainability, Environmental Awareness, Impact Investments, ESG and Finance related projects
+- 💞️ I’m looking to collaborate on Finance, Sustainability, Environmental Awareness, Impact Investments, and ESG related projects
 - 📫 How to reach me @ rishabh28mehta@gmail.com
 
 <!---
