@@ -1,0 +1,25 @@
+{
+  // Specifies the version of the Chrome extension manifest format.
+  "manifest_version": 3,
+
+  // The name of your Chrome extension that appears in the toolbar or Web Store.
+  "name": "Rishabh's Fancy Joke Generator",
+
+  // The current version of your extension (update this when you make changes).
+  "version": "1.0",
+
+  // A short description of what your extension does.
+  "description": "Displays a random joke when you click the extension icon.",
+
+  // Defines the default behavior when the extension icon is clicked.
+  "action": {
+    // The HTML file to show in the pop-up window when the icon is clicked.
+    "default_popup": "popup.html",
+
+    // The icon to display for the extension in the Chrome toolbar.
+    "default_icon": "icon.png"
+  },
+
+  // No special permissions are required for this extension.
+  "permissions": []
+}

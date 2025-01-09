@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- The title of the HTML document, which also appears in the browser tab -->
+  <title>Rishabh's Fancy Jokes</title>
+
+  <!-- Inline CSS for styling the popup -->
+  <style>
+    /* Styles for the body of the popup */
+    body {
+      font-family: 'Cambria', 'Montserrat', sans-serif; /* Use these fonts for text */
+      width: 400px; /* Set the width of the pop-up */
+      margin: 0; /* Remove default margin */
+      padding: 30px; /* Add padding inside the body */
+      text-align: center; /* Center align all text */
+      background: linear-gradient(135deg, #6dd5ed, #2193b0); /* Background color with gradient */
+      color: white; /* Text color */
+      border-radius: 10px; /* Rounded corners for the popup box */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow around the popup */
+    }
+
+    /* Styles for the heading */
+    h3 {
+      font-size: 24px; /* Size of the heading */
+      margin-bottom: 20px; /* Add space below the heading */
+    }
+
+    /* Styles for the joke setup text */
+    #joke-setup {
+      font-size: 18px; /* Size of the joke setup text */
+      margin: 20px 0 10px; /* Space around the setup text */
+    }
+
+    /* Styles for the joke punchline text */
+    #joke-punchline {
+      font-size: 16px; /* Size of the punchline text */
+      font-style: italic; /* Make punchline italic */
+      color: #ffeb3b; /* Yellow color for the punchline */
+    }
+
+    /* Button styles */
+    button {
+      background-color: #ff6f61; /* Red button color */
+      color: white; /* White button text */
+      border: none; /* Remove button border */
+      border-radius: 5px; /* Rounded button corners */
+      padding: 10px 20px; /* Button padding */
+      font-size: 16px; /* Button text size */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      transition: background-color 0.3s ease; /* Smooth color transition on hover */
+      margin: 10px; /* Space around buttons */
+    }
+
+    /* Change button color on hover */
+    button:hover {
+      background-color: #e65c50;
+    }
+
+    /* Style for the loading message */
+    #loading {
+      display: none; /* Hidden by default */
+      font-size: 14px; /* Size of the loading text */
+      margin-top: 10px; /* Space above the loading text */
+      font-style: italic; /* Italic text style */
+    }
+  </style>
+</head>
+<body>
+  <!-- Main heading -->
+  <h3>Rishabh's Fancy Jokes!</h3>
+
+  <!-- Placeholder for the joke setup -->
+  <p id="joke-setup">Ready for some laughter?</p>
+
+  <!-- Placeholder for the joke punchline -->
+  <p id="joke-punchline"></p>
+
+  <!-- Button to generate a random joke -->
+  <button id="generate">Generate Joke</button>
+
+  <!-- Button to reset the joke history -->
+  <button id="reset">Reset Jokes</button>
+
+  <!-- Loading message -->
+  <p id="loading">Fetching a joke...</p>
+
+  <!-- Link to the JavaScript file for functionality -->
+  <script src="popup.js"></script>
+</body>
+</html>
